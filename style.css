@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #1F2937;
+  background-color: #1f2937;
 }
 
 .logo {
@@ -29,7 +29,7 @@ header {
 
 a {
   text-decoration: none;
-  color: #E5E7EB;
+  color: #e5e7eb;
   font-size: 18px;
 }
 
@@ -37,10 +37,54 @@ main {
   flex: 1;
 }
 
+.introduction {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.content {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content p {
+  font-size: 18px;
+  margin: 0;
+  color: #e5e7eb;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 48px;
+  margin: 0;
+  color: #f9faf8;
+}
+
+.introduction img {
+  width: 500px;
+  height: 250px;
+}
+
+.sign-up {
+  width: 128px;
+  height: 38px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+}
+
 footer {
   height: 80px;
-  background-color: #1F2937;
-  color: #E5E7EB;
+  background-color: #1f2937;
+  color: #e5e7eb;
   font-size: 16px;
   display: flex;
   justify-content: center;
