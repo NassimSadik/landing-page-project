@@ -56,6 +56,7 @@ main {
 
 .content p {
   font-size: 18px;
+  font-weight: 300;
   margin: 0;
   color: #e5e7eb;
 }
@@ -78,6 +79,7 @@ h1 {
   background-color: #3882f6;
   color: #e5e7eb;
   font-size: 18px;
+  font-weight: 700;
   border-radius: 10px;
   border: none;
 }
@@ -140,6 +142,40 @@ h2 {
   font-size: 22px;
   font-weight: 900;
   align-self: flex-end;
+}
+
+.sign-section {
+  height: 150px;
+  width: 850px;
+  margin: 120px auto;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign-section .sign-up {
+  border: 2px solid #f9faf8;
+}
+
+.sign-div {
+  color: white;
+}
+
+.sign-div > * {
+  margin: 0;
+}
+
+.sign-div h3 {
+  font-size: 24px;
+}
+
+.sign-div p {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 footer {
